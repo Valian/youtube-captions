@@ -7,16 +7,40 @@ defmodule YoutubeCaptions.MixProject do
   def project do
     [
       app: :youtube_captions,
+      name: "YoutubeCaptions",
       version: @version,
       elixir: "~> 1.10",
+      source_url: @source_url,
+      description: "An Elixir library for fetching youtube captions without API key.",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      package: package()
+      package: package(),
+      docs: docs()
     ]
   end
 
   def application do
     []
+  end
+
+  defp docs do
+    [
+      main: "readme",
+      extras: [
+        "README.md"
+      ],
+      source_ref: "v#{@version}",
+      source_url: @source_url,
+      groups_for_modules: [
+        Markdown: [
+          ExDoc.Markdown,
+          ExDoc.Markdown.Earmark
+        ]
+      ],
+      skip_undefined_reference_warnings_on: [
+        "CHANGELOG.md"
+      ]
+    ]
   end
 
   defp package do
@@ -34,7 +58,8 @@ defmodule YoutubeCaptions.MixProject do
   defp deps do
     [
       {:html_entities, "~> 0.5"},
-      {:req, "~> 0.3"}
+      {:req, "~> 0.3"},
+      {:ex_doc, "~> 0.31", only: :dev, runtime: false}
     ]
   end
 end

@@ -4,7 +4,7 @@
 [![Total Download](https://img.shields.io/hexpm/dt/youtube_captions.svg)](https://hex.pm/packages/youtube_captions)
 [![License](https://img.shields.io/hexpm/l/youtube_captions.svg)](https://github.com/Valian/youtube_captions/blob/main/LICENSE.md)
 
-A small library for fetching Youtube Captions without API key. Uses [Req](https://github.com/wojtekmach/req) under the hood.
+An elixir library for fetching Youtube Captions without API key. Uses [Req](https://github.com/wojtekmach/req) under the hood.
 
 ## Installation
 

@@ -1,5 +1,5 @@
 defmodule YoutubeCaptions do
-  @doc """
+  @moduledoc """
   Youtube captions downloader. Exposes a single function `get_subtitles/3`.
 
   Fetching is done using library Req. You can pass additional options to `Req.get/2` as 3rd argument.
@@ -86,7 +86,7 @@ defmodule YoutubeCaptions do
       %{"baseUrl" => base_url} ->
         {:ok, base_url}
 
-      data ->
+      _data ->
         {:error, "Unable to find transcript URL for language #{lang}"}
     end
   end
