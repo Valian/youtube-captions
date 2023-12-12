@@ -1,7 +1,7 @@
 defmodule YoutubeCaptions.MixProject do
   use Mix.Project
 
-  @source_url "https://github.com/Valian/youtube_captions"
+  @source_url "https://github.com/Valian/youtube-captions"
   @version "0.1.0"
 
   def project do
