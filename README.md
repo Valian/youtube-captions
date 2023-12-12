@@ -2,7 +2,7 @@
 [![Module Version](https://img.shields.io/hexpm/v/youtube_captions.svg)](https://hex.pm/packages/youtube_captions)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/youtube_captions/)
 [![Total Download](https://img.shields.io/hexpm/dt/youtube_captions.svg)](https://hex.pm/packages/youtube_captions)
-[![License](https://img.shields.io/hexpm/l/youtube_captions.svg)](https://github.com/Valian/youtube_captions/blob/master/LICENSE.md)
+[![License](https://img.shields.io/hexpm/l/youtube_captions.svg)](https://github.com/Valian/youtube_captions/blob/main/LICENSE.md)
 
 A small library for fetching Youtube Captions without API key. Uses [Req](https://github.com/wojtekmach/req) under the hood.
 

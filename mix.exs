@@ -21,7 +21,7 @@ defmodule YoutubeCaptions.MixProject do
 
   defp package do
     [
-      description: "A small library for fetching youtube captions without API key.",
+      description: "An Elixir library for fetching youtube captions without API key.",
       files: ["lib", "mix.exs", "README*", "LICENSE*", "doc"],
       maintainers: ["Jakub Skałecki"],
       licenses: ["MIT"],
